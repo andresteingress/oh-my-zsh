@@ -25,8 +25,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}o"
 PROMPT="
 %{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
 %{$fg[cyan]%}%n \
-%{$fg[white]%}at \
-%{$fg[green]%}$(box_name) \
 %{$fg[white]%}in \
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}\
 ${git_info} \
